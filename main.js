@@ -310,7 +310,7 @@ var UserDetailsService = /** @class */ (function () {
         });
     }
     UserDetailsService.prototype.getJSON = function () {
-        return this.http.get("./assets/MOCK_DATA.json");
+        return this.http.get("./database.github.io/assets/MOCK_DATA.json");
     };
     UserDetailsService = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"])({
